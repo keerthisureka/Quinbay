@@ -1,5 +1,5 @@
 # Quinbay
-Blibli India Pre-Training Program
+Blibli India Pre-Training Program - [Click](https://codewithharsh.notion.site/Blibli-India-Pre-Training-Program-12343d81da9b8014ac18f7583e43a59e)
 
 #### Deadlines:
 - Part 1: Backend (Java) + Assignment – Due Nov 15th
