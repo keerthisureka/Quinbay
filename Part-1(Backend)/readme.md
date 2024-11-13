@@ -1,0 +1,11 @@
+### Task - 1
+
+1. Implement a `MyList` class that contains an integer array of size 100 as a member. This class should support the following operations: adding a new value, deleting an element based on its index, deleting an element based on its value, and retrieving a value from a specific index. The array should dynamically grow, similar to an `ArrayList`, when more data is added, and shrink when data is deleted. - [Soln](https://github.com/keerthisureka/Quinbay/blob/main/Part-1(Backend)/Q1.%20MyList.java)
+2. Implement a generic `MyList` class with a member that holds a generic array of size 100. This class should support the following operations: adding a new value, deleting an element based on its index, deleting an element based on its value, and retrieving a value from a specific index. The class should be capable of creating lists for `Integer`, `String`, and custom classes. Use the same structure as the previous class and make it generic. - [Soln](https://github.com/keerthisureka/Quinbay/blob/main/Part-1(Backend)/Q2.%20MyList.java)
+3. Create a class named `Employee` with the following fields: `id` (String), `name` (String), `age` (int), and `dateOfJoining` (Date). Use this `Employee` object with the previously implemented `MyList` class. - [Soln](https://github.com/keerthisureka/Quinbay/blob/main/Part-1(Backend)/Q3.%20Employee.java)
+4. Write code that throws a custom exception if the given number has more than one digit. Catch the exception and print an appropriate message. - [Soln](https://github.com/keerthisureka/Quinbay/blob/main/Part-1(Backend)/Q4.%20CustomException.java)
+5. Create a class named `Bank` and other classes such as `ICICI` and `HDFC`. The `Bank` class should have default transaction charges, which will serve as the base. Based on these default charges, the `ICICI` and `HDFC` classes will calculate their specific transaction charges. Ensure that proper access specifiers are used throughout the code. - [Soln]()
+
+### Task - 2
+- Questions: [Solve Programming Questions | HackerRank](https://www.hackerrank.com/domains/java)
+- Solutions: [Click to view Solutions](https://github.com/keerthisureka/Quinbay/tree/main/Part-1(Backend)/HackerRank%20Solutions)
