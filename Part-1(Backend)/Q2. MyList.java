@@ -146,3 +146,29 @@ class Person {
         return String.valueOf(ID) + " " + name;
     }
 }
+
+/* Output:
+    --------------------------Integer type--------------------------
+    After adding 5 values: [10, 20, 30, 40, 50]
+    Array size: 5
+    After deleting at index 0 (deleting by index): [20, 30, 40, 50]
+    After deleting 30 (deleting by value): [20, 40, 50]
+    Array size: 3
+    Retrieving a value at index 1: 40
+
+    --------------------------String type--------------------------
+    After adding 3 values: [Hello, World, Welcome]
+    Array size: 3
+    After deleting at index 1 (deleting by index): [Hello, Welcome]
+    After deleting 'Hello' (deleting by value): [Welcome]
+    Array size: 1
+    Retrieving a value at index 0: Welcome
+
+    --------------------------Custom type--------------------------
+    After adding 4 values: [123 Alice, 234 Bob, 345 John, 456 Zoya]
+    Array size: 4
+    After deleting at index 3 (deleting by index): [123 Alice, 234 Bob, 345 John]
+    Array size: 3
+    After deleting '123 Alice' (deleting by value): [234 Bob, 345 John]
+    Retrieving a value at index 2: 345 John
+*/

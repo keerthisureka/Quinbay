@@ -121,3 +121,66 @@ class MyList {
         System.out.println("Retrieving a value at index 1: " + empList.get(1));
     }
 }
+
+/* Output:
+    After adding 4 values: [
+    ID: E001
+    Name: Alice
+    Age: 25
+    Date of Joining: 2020-01-20
+    , 
+    ID: E002
+    Name: Bob
+    Age: 30
+    Date of Joining: 2018-01-01
+    , 
+    ID: E003
+    Name: John
+    Age: 24
+    Date of Joining: 2023-06-01
+    , 
+    ID: E004
+    Name: Zoya
+    Age: 28
+    Date of Joining: 2023-06-08
+    ]
+
+    Array size: 4
+
+    After deleting at index 3 (deleting by index): [
+    ID: E001
+    Name: Alice
+    Age: 25
+    Date of Joining: 2020-01-20
+    , 
+    ID: E002
+    Name: Bob
+    Age: 30
+    Date of Joining: 2018-01-01
+    , 
+    ID: E003
+    Name: John
+    Age: 24
+    Date of Joining: 2023-06-01
+    ]
+
+    Array size: 3
+
+    After deleting employee with name='Alice' (deleting by value): [
+    ID: E002
+    Name: Bob
+    Age: 30
+    Date of Joining: 2018-01-01
+    , 
+    ID: E003
+    Name: John
+    Age: 24
+    Date of Joining: 2023-06-01
+    ]
+
+    Retrieving a value at index 1: 
+    ID: E003
+    Name: John
+    Age: 24
+    Date of Joining: 2023-06-01
+*/

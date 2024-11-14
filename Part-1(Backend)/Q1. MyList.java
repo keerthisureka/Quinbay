@@ -85,3 +85,12 @@ public class MyList {
         System.out.println("Retrieving a value at index 1: " + list.get(1));
     }
 }
+
+/* Output:
+    After adding 5 values: [10, 20, 30, 40, 50]
+    Array size: 5
+    After deleting at index 0 (deleting by index): [20, 30, 40, 50]
+    After deleting 30 (deleting by value): [20, 40, 50]
+    Array size: 3
+    Retrieving a value at index 1: 40
+*/
