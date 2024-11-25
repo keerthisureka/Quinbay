@@ -13,3 +13,6 @@ Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/m
 - Also used in multiple ways such as Social Media, Big Data and Hadoop, Android applications, Software Testing, Data Science and AI, Security, Data Analytics
 - James Gosling in 1995 invented Java for interactive Television
 - Java is Open Source, provides High Performance, Multithreading (use same resource to do more work), Secured (minimum interaction with the system OS), Platform-independent (byte code), Portable, Object-Oriented (exxtensible), Robust (compile time and run time error checking, memory management and mishandle exception by introducing automatic garbage collector)
+
+## Frontend - HTML/CSS/JS (~30hr)
+Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/main/Part-2(Frontend))
