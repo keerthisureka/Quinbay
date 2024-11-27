@@ -282,98 +282,166 @@ JavaScript is a scripting language you can use to make web pages interactive. It
 #### [Introducing Else If Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/072-introducing-else-if-statements.js)
 - If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
-#### [Logical Order in If Else Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Logical Order in If Else Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/073-logical-order-in-if-else-statements.js)
 - Order is important in `if`, `else if` statements.
 - The function is executed from top to bottom so you will want to be careful of what statement comes first.
 
-#### [Chaining If Else Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Chaining If Else Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/074-chaining-if-else-statements.js)
 - `if/else` statements can be chained together for complex logic.
 
-#### [Golf Code](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Golf Code](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/075-golf-code.js)
 - In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 - Your function will be passed `par` and `strokes` arguments.
 
-#### [Selecting from Many Options with Switch Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Selecting from Many Options with Switch Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/076-selecting-from-many-options-with-switch-statements.js)
 - If you need to match one value against many options, you can use a switch statement. A `switch` statement compares the value to the case statements which define various possible values. Any valid JavaScript statements can be executed inside a case block and will run from the first matched `case` value until a `break` is encountered.
 
-#### [Adding a Default Option in Switch Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Adding a Default Option in Switch Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/077-adding-a-default-option-in-switch-statements.js)
 - In a `switch` statement you may not be able to specify all possible values as `case` statements. Instead, you can add the `default` statement which will be executed if no matching `case` statements are found. Think of it like the final `else` statement in an `if/else` chain.
 - A `default` statement should be the last case.
 
-#### [Multiple Identical Options in Switch Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Multiple Identical Options in Switch Statements](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/078-multiple-identical-options-in-switch-statements.js)
 - If the `break` statement is omitted from a `switch` statement's `case`, the following `case` statement(s) are executed until a `break` is encountered. If you have multiple inputs with the same output, you can represent them in a `switch` statement.
 
-#### [Replacing If Else Chains with Switch](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Replacing If Else Chains with Switch](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/079-replacing-if-else-chains-with-switch.js)
 - If you have many options to choose from, a `switch` statement can be easier to write than many chained `if`/`else if` statements. 
 
-#### [Returning Boolean Values from Functions](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
+#### [Returning Boolean Values from Functions](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/080-returning-boolean-values-from-functions.js)
 - You may recall from [Comparison with the Equality Operator](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/060-comparison-with-the-equality-operator.js) that all comparison operators return a boolean `true` or `false` value.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Return Early Pattern for Functions](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/081-return-early-pattern-for-functions.js)
+- When a `return` statement is reached, the execution of the current function stops and control returns to the calling location.
+- Remember that `undefined` is a keyword, not a string.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Counting Cards](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/082-counting-cards.js)
+- In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting.
+- Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.
+    | Count Change| Cards |
+    | :---------: | :---: |
+    |   +1  | 2, 3, 4, 5, 6 |
+    |   0	|   7, 8, 9     |
+    |  -1	| 10, 'J', 'Q', 'K', 'A' |
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Build JavaScript Objects](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/083-build-javascript-objects.js)
+- Objects are similar to `arrays`, except that instead of using indexes to access and modify their data, you access the data in objects through what are called `properties`.
+- Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Accessing Object Properties with Dot Notation](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/084-accessing-object-properties-with-dot-notation.js)
+- There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
+- Dot notation is what you use when you know the name of the property you're trying to access ahead of time.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Accessing Object Properties with Bracket Notation](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/085-accessing-object-properties-with-bracket-notation.js)
+- The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Accessing Object Properties with Variables](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/086-accessing-object-properties-with-variables.js)
+- Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
+- Note that we do not use quotes around the variable name when using it to access the property because we are using the value of the variable, not the name.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Updating Object Properties](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/087-updating-object-properties.js)
+- After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Add New Properties to a JavaScript Object](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/088-add-new-properties-to-a-javascript-object.js)
+- You can add new properties to existing JavaScript objects the same way you would modify them.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Delete Properties from a JavaScript Object](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/089-delete-properties-from-a-javascript-object.js)
+- We can also delete properties from objects like this: `delete ourDog.bark;`
+- You may use either dot or bracket notation.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Using Objects for Lookups](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/090-using-objects-for-lookups.js)
+- Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Testing Objects for Properties](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/091-testing-objects-for-properties.js)
+- To check if a property on a given object exists or not, you can use the `.hasOwnProperty()` method. `someObject.hasOwnProperty(someProperty)` returns `true` or `false` depending on if the property is found on the object or not.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Manipulating Complex Objects](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/092-manipulating-complex-objects.js)
+- Sometimes you may want to store data in a flexible Data Structure. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of strings, numbers, booleans, arrays, functions, and objects.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Accessing Nested Objects](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/093-accessing-nested-objects.js)
+- The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Accessing Nested Arrays](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/094-accessing-nested-arrays.js)
+- As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Record Collection](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/095-record-collection.js)
+- You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Iterate with JavaScript While Loops](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/096-iterate-with-javascript-while-loops.js)
+- You can run the same code multiple times by using a loop.
+- The first type of loop we will learn is called a `while` loop because it runs while a specified condition is true and stops once that condition is no longer true.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Iterate with JavaScript For Loops](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/097-iterate-with-javascript-for-loops.js)
+- You can run the same code multiple times by using a loop.
+- The most common type of JavaScript loop is called a `for` loop because it runs for a specific number of times.
+- For loops are declared with three optional expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization statement, `b` is the condition statement, and `c` is the final expression.
+- The initialization statement is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
+- The condition statement is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to `true`. When the condition is `false` at the start of the iteration, the loop will stop executing. This means if the condition starts as false, your loop will never execute.
+- The final expression is executed at the end of each loop iteration, prior to the next condition check and is usually used to increment or decrement your loop counter.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Iterate Odd Numbers With a For Loop](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/098-iterate-odd-numbers-with-a-for-loop.js)
+- For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
+- We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Count Backwards With a For Loop](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/099-count-backwards-with-a-for-loop.js)
+- A for loop can also count backwards, so long as we can define the right conditions.
+- In order to decrement by two each iteration, we'll need to change our initialization, condition, and final expression.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Iterate Through an Array with a For Loop](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/100-iterate-through-an-array-with-a-for-loop.js)
+- A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a `for` loop. 
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Nesting For Loops](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/101-nesting-for-loops.js)
+- If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Iterate with JavaScript Do...While Loops](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/102-iterate-with-javascript-do---while-loops.js)
+- The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
 
-#### [](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/)
-- 
+#### [Replace Loops using Recursion](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/103-replace-loops-using-recursion.js)
+- Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements.
+
+#### [Profile Lookup](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/104-profile-lookup.js)
+- We have an array of objects representing different people in our contacts lists.
+- A `lookUpProfile` function that takes `name` and a property (`prop`) as arguments has been pre-written for you.
+- The function should check if `name` is an actual contact's `firstName` and the given property (`prop`) is a property of that contact.
+- If both are true, then return the "value" of that property.
+- If `name` does not correspond to any contacts then return the string `No such contact`.
+- If `prop` does not correspond to any valid properties of a contact found to match `name` then return the string `No such property`.
+
+#### [Generate Random Fractions with JavaScript](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/105-generate-random-fractions-with-javascript.js)
+- Random numbers are useful for creating random behavior.
+- JavaScript has a `Math.random()` function that generates a random decimal number between `o` (inclusive) and `1` (exclusive). Thus `Math.random()` can return a `0` but never return a `1`.
+- <b>Note:</b> Like [Storing Values with the Assignment Operator](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/003-storing-values-with-the-assignment-operator.js), all function calls will be resolved before the `return` executes, so we can `return` the value of the `Math.random()` function.
+
+#### [Generate Random Whole Numbers with JavaScript](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/106-generate-random-whole-numbers-with-javascript.js)
+- You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers.
+- The following process will give you a random whole number less than `20`:
+    - Use `Math.random()` to generate a random decimal number.
+    - Multiply that random decimal number by `20`.
+    - Use `Math.floor()` to round this number down to its nearest whole number.
+
+#### [Generate Random Whole Numbers within a Range](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/107-generate-random-whole-numbers-within-a-range.js)
+- You can generate a random whole number in the range from zero to a given number. You can also pick a different lower number for this range.
+- You'll call your minimum number `min` and your maximum number `max`.
+- This formula gives a random whole number in the range from `min` to `max`: `Math.floor(Math.random() * (max - min + 1)) + min`.
+
+#### [Use the parseInt Function](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/108-use-the-parseint-function.js)
+- The `parseInt()` function parses a string and returns an integer. Here's an example: `const a = parseInt("007");`
+- The above function converts the string `007` to the integer `7`. If the first character in the string can't be converted into a number, then it returns `NaN`.
+
+#### [Use the parseInt Function with a Radix](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/109-use-the-parseint-function-with-a-radix.js)
+- The `parseInt()` function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
+- The function call looks like: `parseInt(string, radix);`
+
+#### [Use the Conditional (Ternary) Operator](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/110-use-the-conditional-ternary-operator.js)
+- The conditional operator, also called the ternary operator, can be used as a one line if-else expression.
+- The syntax is `a ? b : c`, where `a` is the condition, `b` is the code to run when the condition returns `true`, and `c` is the code to run when the condition returns `false`.
+
+#### [Use Multiple Conditional (Ternary) Operators](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/111-use-multiple-conditional-ternary-operators.js)
+- In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
+
+#### [Use Recursion to Create a Countdown](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/112-use-recursion-to-create-a-countdown.js)
+- In a previous challenge, you learned how to use recursion to replace a `for` loop. Now, let's look at a more complex function that returns an array of consecutive integers starting with `1` through the number passed to the function.
+- As mentioned in the previous challenge, there will be a <i>base case</i>. The base case tells the recursive function when it no longer needs to call itself. It is a simple case where the return value is already known. There will also be a <i>recursive call</i> which executes the original function with different arguments. If the function is written correctly, eventually the base case will be reached.
+- For example, say you want to write a recursive function that returns an array containing the numbers `1` through `n`. This function will need to accept an argument, `n`, representing the final number. Then it will need to call itself with progressively smaller values of `n` until it reaches `1`.
+
+#### [Use Recursion to Create a Range of Numbers](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript/113-use-recursion-to-create-a-range-of-numbers.js)
+- Continuing from the previous challenge, we provide you another opportunity to create a recursive function to solve a problem.
+- We have defined a function named `rangeOfNumbers` with two parameters. The function should return an array of integers which begins with a number represented by the `startNum` parameter and ends with a number represented by the `endNum` parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both `startNum` and `endNum` are the same.
