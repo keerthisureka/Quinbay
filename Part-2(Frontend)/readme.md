@@ -10,3 +10,4 @@
     - Basic Algorithm Scripting - [Solns](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20Algorithm%20Scripting)
     - Object Oriented Programming - [Solns](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Object%20Oriented%20Programming)
     - Functional Programming - [Solns](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Functional%20Programming)
+- My freeCodeCamp Profile: [Click to view](https://www.freecodecamp.org/keerthisureka)
