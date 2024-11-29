@@ -1,6 +1,6 @@
 ### Task
 
-- List of Assignments: [freeCodeCamp.org](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- List to Assignments: [freeCodeCamp.org](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 - Solutions: 
     - Basic JavaScript - [Solns](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/Basic%20JavaScript)
     - ES6 - [Solns](https://github.com/keerthisureka/Quinbay/blob/main/Part-2(Frontend)/ES6)
