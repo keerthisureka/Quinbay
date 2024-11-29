@@ -14,7 +14,10 @@ Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/m
 - James Gosling in 1995 invented Java for interactive Television
 - Java is Open Source, provides High Performance, Multithreading (use same resource to do more work), Secured (minimum interaction with the system OS), Platform-independent (byte code), Portable, Object-Oriented (exxtensible), Robust (compile time and run time error checking, memory management and mishandle exception by introducing automatic garbage collector)
 
-## Frontend - HTML/CSS/JS (~30hr)
+## Frontend - HTML/CSS/JS (~30hrs)
 Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/main/Part-2(Frontend))
 - While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive.
 - JavaScript is the programming language of the Web.
+
+## Main Project - Phase 1
+Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/main/Main%20Project-Phase%201)
