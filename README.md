@@ -16,3 +16,5 @@ Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/m
 
 ## Frontend - HTML/CSS/JS (~30hr)
 Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/main/Part-2(Frontend))
+- While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive.
+- JavaScript is the programming language of the Web.
