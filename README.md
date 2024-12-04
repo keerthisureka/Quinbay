@@ -21,3 +21,6 @@ Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/m
 
 ## Main Project - Phase 1
 Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/main/Main%20Project-Phase%201)
+
+## Main Project - Phase 2
+Link to the assignment - [Click](https://github.com/keerthisureka/Quinbay/tree/main/Main%20Project-Phase%202)
