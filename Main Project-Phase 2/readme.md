@@ -118,3 +118,9 @@ If the Spring Boot application doesn't start properly:
 ## Screenshot of the Application
 - Here is a screenshot of the Todo List application running:
 <img src="./ss-todo.png" alt="Todo List Application Screenshot" width="400" height="600" />
+
+### How to Use the Application
+- **Add a Task:** Type a task in the input box and click the `+` button or press `Enter` to add it to the list.
+- **Complete a Task:** Click the `green check button` next to a task to mark it as completed. The text will be crossed out.
+- **Delete a Task:** Click the `red trash icon` to remove a task from the list.
+- **Completed Tasks:** The total number of completed tasks will be displayed at the bottom.
