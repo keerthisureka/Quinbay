@@ -116,5 +116,5 @@ If the Spring Boot application doesn't start properly:
 - You can run `mvn clean install` to clean the project and reinstall dependencies before running the app again.
 
 ## Screenshot of the Application
-Here is a screenshot of the Todo List application running:
-![Todo List Application Screenshot](./ss-todo.png)
+- Here is a screenshot of the Todo List application running:
+<img src="./ss-todo.png" alt="Todo List Application Screenshot" width="400" height="600" />
