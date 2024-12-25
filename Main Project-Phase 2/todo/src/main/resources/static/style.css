@@ -51,6 +51,9 @@ h1 {
 
 #todo-list {
   margin-top: 20px;
+  overflow-y: auto;
+  max-height: 450px;
+  padding-right: 5px;
 }
 
 .todo-card {
